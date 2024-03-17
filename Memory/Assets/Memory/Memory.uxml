@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Memory/USS/card.uss?fileID=7433441132597879392&amp;guid=de1d0cd17648a5440932e802885a3e6f&amp;type=3#card" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; height: 100%; width: 100%; flex-shrink: 1; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center;">
+        <ui:VisualElement name="card" class="card" style="flex-grow: 1; height: 200px; width: 60px;" />
+        <ui:VisualElement name="card" class="card" style="flex-grow: 1;" />
+        <ui:VisualElement name="card" class="card" style="flex-grow: 1;" />
+        <ui:VisualElement name="card" class="card" style="flex-grow: 1;" />
+        <ui:VisualElement name="card" class="card" style="flex-grow: 1; flex-wrap: nowrap;" />
+        <ui:VisualElement name="card" class="card" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
